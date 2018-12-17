@@ -1,0 +1,65 @@
+.header-fixed header[role=banner].faded {
+    background: #fff;
+}
+.off-canvas-wrap {
+    overflow: visible;
+}
+@media only screen and (max-width: 64em) and (min-width: 40.063em) and (orientation: portrait) {
+    body.new-menu.vertical-menu .header-fixed~.primary-menu .spine-section .spine-level-1 li.menu-category-header:nth-child(4) {
+        width: 15%;
+    }
+}
+/*a:not( [href*='elsevier.com'] ):not( [href^='#'] ):not( [href^='/'] ):not([class^='cta-']):after { content: '↗';margin-left: .296rem;}*/
+/*a#top:after {*/
+/*    content: "";    */
+/*}*/
+[rel=external]:after {
+    content: '↗' !important;
+}
+article img:hover {
+    transform: none !important;
+}
+.home-page article img:hover {
+    transform: scale(1.1) !important;
+}
+
+@media only screen and (min-width: 64.063em) {
+    footer.fat-footer .top .footer-social {
+        position: absolute;
+    
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .body-content {
+        margin-left: 50px;    
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 301px) {
+    .body-content {
+        margin-left: 50px;    
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 301px) {
+    .body-content {
+        margin-left: 60px;    
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 301px) {
+    .body-content {
+        margin-left: 200px; 
+        
+    }
+}
+
+/* footer */
+@media only screen and (min-width: 64.063em){
+    footer.fat-footer .top{
+        margin-left: 200px; 
+    }
+}
